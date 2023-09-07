@@ -14,7 +14,7 @@ describe 'fizzbuzz method' do
   end
 
   it 'When n is divisible by 3 and 5, return "fizzbuzz"' do
-    n = 45000
+    n = 45_000
     result = Solver.new.fizzbuzz(n)
     expect(result).to eq 'fizzbuzz'
   end
