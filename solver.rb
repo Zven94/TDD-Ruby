@@ -1,10 +1,7 @@
 class Solver
   def factorial(number)
-    if number == 0
-      return 1
-    else
-      return number * factorial(number -1)
-    end
+    return 1 if number.zero?
+    number * factorial(number - 1)
   end
 
   def reverse(string)

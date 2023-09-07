@@ -1,4 +1,4 @@
-require_relative '../solver_javier'
+require_relative '../solver'
 
 describe 'When testing reverse method of Solver Class' do
   let(:solver) { Solver.new }
