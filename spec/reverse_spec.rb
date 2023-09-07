@@ -1,6 +1,6 @@
-require_relative '../reverse'
+require_relative '../solver_javier'
 
-describe 'When testing reverse.rb' do
+describe 'When testing reverse method of Solver Class' do
   it 'should reverses a string' do
     word = 'hello'
     reversed_word = reverse(word)
